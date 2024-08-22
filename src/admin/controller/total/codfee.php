@@ -63,6 +63,12 @@ class CodFee extends \Opencart\System\Engine\Controller {
 			$json['error'] = $this->language->get('error_permission');
 		}
 
+        if (isset($this->request->post['total_codfee_status']) && $this->request->post['total_codfee_status'] === '1') {
+            if ((float)$this->request->post['total_codfee_fee'] <= 0) {
+                $json['error']['fee'] = $this->language->get('error_total_codfee_fee');
+            }
+        }
+
 		if (!$json) {
 			$this->load->model('setting/setting');
 
