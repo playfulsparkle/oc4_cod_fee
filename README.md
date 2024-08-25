@@ -40,6 +40,8 @@ Download the latest **Cash on Delivery (COD) fee** release from this repository.
 3. Enter the amount, and setup other settings as per your store's requirements.
 4. Save your configuration.
 
+[Upload, install and configure extension](https://github.com/user-attachments/assets/dca98f3c-b15d-493a-8cfa-b5560a64d397)
+
 ---
 
 ## Support & Feedback
