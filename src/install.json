@@ -1,7 +1,8 @@
 {
-    "name": "Cash on Delivery (COD) fee",
-    "license": "GPL-3.0",
+    "name": "Cash on Delivery fee",
+    "code": "cod_fee",
+    "license": "GPL",
     "version": "1.0.0",
     "author": "Playful Sparkle",
-    "link": "https://playfulsparkle.com"
-}
+    "link": "https://github.com/playfulsparkle/oc4_codfee.git"
+  }

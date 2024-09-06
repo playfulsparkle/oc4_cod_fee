@@ -1,0 +1,38 @@
+OpenCart v4 Cash on delivery fee
+
+Enhance your checkout process with our Cash on Delivery (COD) fee extension for OpenCart v4. This extension automatically adds a customizable fee to the order total when customers select the "Cash on Delivery" payment option during checkout.
+
+For more information, visit the extension GitHub page at https://github.com/playfulsparkle/oc4_codfee.git.
+
+Demo frontend - https://demo.playfulsparkle.com/opencart4/
+Demo backend - https://demo.playfulsparkle.com/opencart4/admin/
+
+Key Features
+
+* Automatically adds a customizable fee when customers choose Cash on Delivery (COD) at checkout.
+* Choose between different fee configurations: fixed amounts to be added to the total order cost.
+* Effortless setup and management through the OpenCart admin interface.
+* Fully compatible with OpenCart versions 4.x.
+
+Installation Guide
+
+1. Download the "OpenCart v4 Cash on delivery fee" Extension Package.
+2. Download the latest version of the Cash on Delivery (COD) fee extension from the link provided on this page.
+3. Upload the Extension Files:
+    1. Log in to your OpenCart admin panel.
+    2. Navigate to Extensions > Installer.
+    3. Click the "Upload" button and upload the file codfee.ocmod.zip.
+4. Install the Extension:
+    1. After uploading, click the green "Install" button.
+    2. Go to Extensions and select Order Totals from the dropdown menu.
+    3. Locate the "Cash on Delivery (COD) Fee" extension in the list.
+    4. Click the green "Install" button to activate it.
+5. Configure the Extension:
+    1. Stay on the Extensions page with Order Totals selected.
+    2. Click the "Edit" button next to the installed Cash on Delivery (COD) fee extension.
+    3. Input your preferred fee amount and adjust other settings to suit your store’s requirements.
+    4. Save your configuration.
+
+Support & Feedback
+
+For support or any inquiries regarding the extension, feel free to open an issue on this repository or reach out via email at support@playfulsparkle.com.
