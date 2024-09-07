@@ -1,7 +1,7 @@
 {
-  "name": "oc4_codfee",
-  "version": "1.0.0",
-  "description": "OpenCart v4 Cash on Delivery (COD) fee extension",
+  "name": "ps_cod_fee",
+  "version": "1.0.1",
+  "description": "Playful Sparkle - COD Fee",
   "main": "index.js",
   "scripts": {
     "compress": "node compress.js"
