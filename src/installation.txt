@@ -4,8 +4,8 @@ Enhance your checkout process with our Playful Sparkle - COD Fee extension for O
 
 For more information, visit the extension GitHub page at https://github.com/playfulsparkle/oc4_cod_fee.git.
 
-Demo frontend - https://demo.playfulsparkle.com/opencart4/
-Demo backend - https://demo.playfulsparkle.com/opencart4/admin/
+Demo frontend - https://opencart4.playfulsparkle.com/
+Demo backend - https://opencart4.playfulsparkle.com/admin/
 
 Key Features
 
