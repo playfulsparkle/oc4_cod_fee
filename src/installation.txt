@@ -1,6 +1,6 @@
-Playful Sparkle - COD Fee
+Playful Sparkle - COD fee
 
-Enhance your checkout process with our Playful Sparkle - COD Fee extension for OpenCart v4. This extension automatically adds a customizable fee to the order total when customers select the "Cash on Delivery" payment option during checkout.
+Enhance your checkout process with our Playful Sparkle - COD fee extension for OpenCart 4.x. This extension automatically adds a customizable fee to the order total when customers select the "Cash on Delivery" payment option during checkout.
 
 For more information, visit the extension GitHub page at https://github.com/playfulsparkle/oc4_cod_fee.git.
 
@@ -16,8 +16,8 @@ Key Features
 
 Installation Guide
 
-1. Download the "Playful Sparkle - COD Fee" Extension Package.
-2. Download the latest version of the Playful Sparkle - COD Fee extension from the link provided on this page.
+1. Download the "Playful Sparkle - COD fee" Extension Package.
+2. Download the latest version of the Playful Sparkle - COD fee extension from the link provided on this page.
 3. Upload the Extension Files:
     1. Log in to your OpenCart admin panel.
     2. Navigate to Extensions > Installer.
@@ -25,11 +25,11 @@ Installation Guide
 4. Install the Extension:
     1. After uploading, click the green "Install" button.
     2. Go to Extensions and select Order Totals from the dropdown menu.
-    3. Locate the "Playful Sparkle - COD Fee" extension in the list.
+    3. Locate the "Playful Sparkle - COD fee" extension in the list.
     4. Click the green "Install" button to activate it.
 5. Configure the Extension:
     1. Stay on the Extensions page with Order Totals selected.
-    2. Click the "Edit" button next to the installed Playful Sparkle - COD Fee extension.
+    2. Click the "Edit" button next to the installed Playful Sparkle - COD fee extension.
     3. Input your preferred fee amount and adjust other settings to suit your store’s requirements.
     4. Save your configuration.
 

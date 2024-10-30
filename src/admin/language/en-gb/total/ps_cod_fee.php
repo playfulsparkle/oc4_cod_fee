@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']              = 'Playful Sparkle - COD Fee';
+$_['heading_title']              = 'Playful Sparkle - COD fee';
 
 // Text
 $_['text_extension']             = 'Extensions';
