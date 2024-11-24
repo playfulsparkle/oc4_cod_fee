@@ -4,7 +4,7 @@ $_['heading_title']              = 'Playful Sparkle - Utánvét díj';
 $_['heading_getting_started']    = 'Kezdő lépések';
 $_['heading_setup']              = 'Utánvét díj beállítása';
 $_['heading_faq']                = 'GYIK';
-$_['heading_contact']            = 'Kapcsolatfelvétel a támogatással';
+$_['heading_contact']            = 'Terméktámogatás';
 
 // Text
 $_['text_extension']             = 'Bővítmények';
