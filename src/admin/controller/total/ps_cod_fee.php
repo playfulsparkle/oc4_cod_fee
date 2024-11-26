@@ -43,7 +43,9 @@ class PSCodFee extends \Opencart\System\Engine\Controller
             'href' => $this->url->link('extension/ps_cod_fee/total/ps_cod_fee', 'user_token=' . $this->session->data['user_token'])
         ];
 
-        $data['save'] = $this->url->link('extension/ps_cod_fee/total/ps_cod_fee.save', 'user_token=' . $this->session->data['user_token']);
+        $separator = version_compare(VERSION, '4.0.2.0', '>=') ? '.' : '|';
+
+        $data['save'] = $this->url->link('extension/ps_cod_fee/total/ps_cod_fee' . $separator . 'save', 'user_token=' . $this->session->data['user_token']);
         $data['back'] = $this->url->link('marketplace/extension', 'user_token=' . $this->session->data['user_token'] . '&type=total');
 
         $data['total_ps_cod_fee_fee'] = (float) $this->config->get('total_ps_cod_fee_fee');
