@@ -1,5 +1,6 @@
 {
     "name": "Playful Sparkle - COD fee",
+    "description": "Easily add customizable COD fees at checkout to cover transaction costs, enhancing the checkout experience without technical setup.",
     "code": "ps_cod_fee",
     "license": "GPL",
     "version": "1.0.1",
