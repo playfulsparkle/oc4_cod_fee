@@ -3,7 +3,7 @@
     "description": "Easily add customizable COD fees at checkout to cover transaction costs, enhancing the checkout experience without technical setup.",
     "code": "ps_cod_fee",
     "license": "GPL",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Playful Sparkle",
     "link": "https://github.com/playfulsparkle/oc4_cod_fee.git"
   }

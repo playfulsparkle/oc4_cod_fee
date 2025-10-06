@@ -5,20 +5,22 @@ namespace Opencart\Catalog\Model\Extension\PSCodFee\Total;
  *
  * @package Opencart\Catalog\Model\Extension\PSCodFee\Total
  */
-class PSCodFee extends \Opencart\System\Engine\Model {
-	/**
-	 * @param array $totals
-	 * @param array $taxes
-	 * @param float $total
-	 *
-	 * @return void
-	 */
-	public function getTotal(array &$totals, array &$taxes, float &$total): void {
+class PSCodFee extends \Opencart\System\Engine\Model
+{
+    /**
+     * @param array $totals
+     * @param array $taxes
+     * @param float $total
+     *
+     * @return void
+     */
+    public function getTotal(array &$totals, array &$taxes, float &$total): void
+    {
         if (
-            $this->cart->getSubTotal() > 0 &&
             (float) $this->config->get('total_ps_cod_fee_fee') > 0 &&
             isset($this->session->data['payment_method']) &&
-            $this->session->data['payment_method']['code'] === 'cod.cod'
+            $this->session->data['payment_method']['code'] === 'cod.cod' &&
+            $this->cart->getSubTotal() > 0
         ) {
             $this->load->language('extension/ps_cod_fee/total/ps_cod_fee');
 
@@ -30,7 +32,7 @@ class PSCodFee extends \Opencart\System\Engine\Model {
                 'sort_order' => (int) $this->config->get('total_ps_cod_fee_sort_order')
             ];
 
-            if ($this->config->get('total_ps_cod_fee_tax_class_id')) {
+            if ((int) $this->config->get('total_ps_cod_fee_tax_class_id')) {
                 $tax_rates = $this->tax->getRates((float) $this->config->get('total_ps_cod_fee_fee'), (int) $this->config->get('total_ps_cod_fee_tax_class_id'));
 
                 foreach ($tax_rates as $tax_rate) {
@@ -44,5 +46,5 @@ class PSCodFee extends \Opencart\System\Engine\Model {
 
             $total += (float) $this->config->get('total_ps_cod_fee_fee');
         }
-	}
+    }
 }
