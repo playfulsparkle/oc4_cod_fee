@@ -1,6 +1,6 @@
 {
   "name": "oc4_cod_fee",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Playful Sparkle - COD fee for OpenCart 4.x",
   "main": "index.js",
   "scripts": {
