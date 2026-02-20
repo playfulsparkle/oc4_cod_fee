@@ -7,7 +7,7 @@ $_['heading_contact']            = 'Контактная поддержка';
 $_['text_extension']             = 'Расширения';
 $_['text_success']               = 'Успех: Вы изменили комиссию за наложенный платеж!';
 $_['text_edit']                  = 'Редактировать комиссию за наложенный платеж';
-$_['text_contact']               = '<p>Для получения дополнительной помощи, пожалуйста, свяжитесь с нашей службой поддержки:</p><ul><li><strong>Контакт:</strong> <a href="mailto:%s">%s</a></li><li><strong>Документация:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Документация пользователя</a></li></ul>';
+$_['text_contact']               = '<p>Для получения дополнительной помощи, пожалуйста, свяжитесь с нашей службой поддержки:</p><ul><li><strong>Контакт:</strong> <a href="mailto:%s">%s</a></li><li><strong>Документация:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Руководство пользователя</a></li></ul>';
 
 // Tab
 $_['tab_general']                = 'Общее';
