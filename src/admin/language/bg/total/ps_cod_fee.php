@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']              = 'Playful Sparkle - COD fee';
+$_['heading_title']              = 'Playful Sparkle - Такса наложен платеж';
 $_['heading_contact']            = 'Контакт с поддръжката';
 
 // Text

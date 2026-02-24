@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']              = 'Playful Sparkle - COD fee';
+$_['heading_title']              = 'Playful Sparkle - 代金引換手数料';
 $_['heading_contact']            = 'サポートにお問い合わせ';
 
 // Text
